@@ -8,42 +8,18 @@ The `>`{:class="block3operators"}, `<`{:class="block3operators"}, or `=`{:class=
 if <(speed) > (50)> then
 say [Slow down] for (2) seconds
 end
-
-repeat until <(size) < (30)>
-play sound [shrink v] until done
-change (size) by (-1)
-end
-
-wait until <(timer) = (0)>
-stop [all v]
 ```
 + Less than:
 
 ```blocks3
-if <(speed) > (50)> then
-say [Slow down] for (2) seconds
-end
-
 repeat until <(size) < (30)>
 play sound [shrink v] until done
 change (size) by (-1)
 end
-
-wait until <(timer) = (0)>
-stop [all v]
 ```
 + Equal to:
 
 ```blocks3
-if <(speed) > (50)> then
-say [Slow down] for (2) seconds
-end
-
-repeat until <(size) < (30)>
-play sound [shrink v] until done
-change (size) by (-1)
-end
-
 wait until <(timer) = (0)>
 stop [all v]
 ```
