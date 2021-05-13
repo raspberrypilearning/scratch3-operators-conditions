@@ -1,59 +1,38 @@
-## Introduction
+There are a number of hexagon shaped `operator`{:class="block3operators"} blocks that can be used to check conditions in `if`{:class="block3control"}, `if...else`{:class="block3control"}, `wait until`{:class="block3control"}, and `repeat until`{:class="block3control"} blocks to make a decision. 
 
-Add project description here. What will learners be making? Broadly what skills will they be learning?
+The `greater than`{:class="block3operators"}, `less than`{:class="block3operators"}, or `equal to`{:class="block3operators"} operators check the relationship between two values or `variables`{:class="block3variables"}:
 
-### What you will make
+```blocks3
+if <(speed) > (50)> then
+say [Slow down] for (2) seconds
+end
 
---- no-print ---
-Add instructions for interacting with the embedded content here.
+wait until <(timer) < (0)>
+stop [all v]
 
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
-</div>
---- /no-print ---
+repeat until <(size) = (300)>
+play sound [grow v] until done
+change (size) by (1)
+end
+```
 
---- print-only ---
-![Complete project](images/showcase_static.png)
---- /print-only ---
+The `and`{:class="block3operators"}, `or`{:class="block3operators"}, and `not`{:class="block3operators"} operators make logical decisions if:
++ `and`{:class="block3operators"} - both conditions are true 
++ `or`{:class="block3operators"} -  either condition is true
++ `not`{:class="block3operators"} - the condition is false
 
---- collapse ---
----
-title: What you will need
----
-### Hardware
+```blocks3
+if <<(x position) > (0)> and <(speed) > (50)>> then
+think [Slow down]  
+end
 
-+ A computer or tablet capable of running Scratch 3
+if <<(volume) < (50)> or <(volume) > (100)>> then
+set [pitch v] effect to (25)
+end
 
-### Software
+if <not <(total) < (50)>> then
+move (10) steps
+end
+```
 
-+ Scratch 3 (either [online](https://scratch.mit.edu/){:target="_blank"} or [offline](https://scratch.mit.edu/download){:target="_blank"})
-+ Python 3
-+ This project can be completed in a web browser using [trinket.io](https://trinket.io/)
 
-### Downloads
-
-+ Download the project [starter file](http://rpf.io/p/en/projectName-go){:target="_blank"} if working offline
-
---- /collapse ---
-
---- collapse ---
----
-title: What you will learn
----
-
-+ Learning objective 1
-+ Learning objective 2
-+ Learning objective 3
-
---- /collapse ---
-
---- collapse ---
----
-title: Additional information for educators
----
-
-You can download the completed project [here](http://rpf.io/p/en/projectName-get){:target="_blank"}.
-
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/projectName/print){:target="_blank"}.
-
---- /collapse ---
