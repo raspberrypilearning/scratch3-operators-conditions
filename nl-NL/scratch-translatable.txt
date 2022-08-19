@@ -1,5 +1,5 @@
-speed
+snelheid
 
-Slow down
+Rustig aan
 
-total
+totaal
