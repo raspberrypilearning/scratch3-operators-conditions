@@ -1,5 +1,5 @@
-speed
+سرعة
 
-Slow down
+ابطئ
 
-total
+المجموع
