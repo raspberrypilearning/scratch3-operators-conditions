@@ -1,5 +1,5 @@
-speed
+velocidad
 
-Slow down
+Desacelerar
 
 total
