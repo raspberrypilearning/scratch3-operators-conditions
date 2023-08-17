@@ -1,5 +1,5 @@
-speed
+速度
 
-Slow down
+減速しよう
 
-total
+合計
