@@ -1,6 +1,6 @@
 たくさんある六角形の形をした`演算`{:class="block3operators"}ブロックは、`もし`{:class="block3control"}、`もし...でなければ`{:class="block3control"}、`まで待つ`{:class="block3control"}、そして`まで繰り返す`{:class="block3control"}ブロックで判断する条件を確認するのに使うことができます。
 
-`>`{:class="block3operators"}、`<`{:class="block3operators"}、または`=`{:class="block3operators"}演算子は、2つの値または`変数`{: class="block3variables"}の関係を確認します。
+`>`{:class="block3operators"}、`<`{:class="block3operators"}、または`=`{:class="block3operators"}の演算子は、2つの値または`変数`{: class="block3variables"}の関係を確認します。
 
 + 大きい
 
