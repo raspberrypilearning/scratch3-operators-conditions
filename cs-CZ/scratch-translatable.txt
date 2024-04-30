@@ -1,5 +1,5 @@
-speed
+rychlost
 
-Slow down
+Zpomal
 
-total
+dohromady
