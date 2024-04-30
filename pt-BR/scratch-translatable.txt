@@ -1,5 +1,5 @@
-speed
+velocidade
 
-Slow down
+Diminuir a velocidade
 
 total
