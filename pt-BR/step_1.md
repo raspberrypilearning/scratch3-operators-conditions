@@ -1,4 +1,4 @@
-Existem vários blocos de `operador`{:class="block3operators"} em forma de hexágono que podem ser usados para verificar as condições em `if`{:class="block3control"}, `if...else`{:class="block3control"},`espere até`{:class="block3control"}, e `repita até`{:class="block3control"} blocos para tomar uma decisão.
+Existem vários blocos de `operador`{:class="block3operators"} em forma de hexágono que podem ser usados para verificar as condições em `if`{:class="block3control"}, `if...else`{:class="block3control"}, `espere até`{:class="block3control"}, e `repita até`{:class="block3control"} blocos para tomar uma decisão.
 
 Os operadores `>`{:class="block3operators"}, `<`{:class="block3operators"}, ou `=`{:class="block3operators"} verificam o relacionamento entre dois valores ou `variáveis`{:class="block3variables"}:
 
