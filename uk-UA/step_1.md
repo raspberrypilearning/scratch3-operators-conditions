@@ -13,7 +13,7 @@ end
 
 ```blocks3
 repeat until <(size) < (30)>
-play sound [shrink v] until done
+play sound [зменшити v] until done
 change (size) by (-1)
 end
 ```
@@ -38,7 +38,7 @@ end
 
 ```blocks3
 if <<(volume) < (50)> or <(volume) > (100)>> then
-set [pitch v] effect to (25)
+set [висота v] effect to (25)
 end
 ```
 
