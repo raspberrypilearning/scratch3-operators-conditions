@@ -1,5 +1,5 @@
-speed
+velocità
 
-Slow down
+Rallenta
 
-total
+totale
