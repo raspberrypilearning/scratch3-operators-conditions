@@ -1,15 +1,15 @@
-There are a number of hexagon shaped `operator`{:class="block3operators"} blocks that can be used to check conditions in `if`{:class="block3control"}, `if...else`{:class="block3control"}, `wait until`{:class="block3control"}, and `repeat until`{:class="block3control"} blocks to make a decision.
+Esistono diversi blocchi `operatore`{:class="block3operators"} a forma di esagono che possono essere utilizzati per verificare le condizioni nei blocchi `se`{:class="block3control"}, `se...allora`{:class="block3control"}, `attendi fino a quando`{:class="block3control"} e `ripeti fino a quando`{:class="block3control"} per prendere una decisione.
 
-The `>`{:class="block3operators"}, `<`{:class="block3operators"}, or `=`{:class="block3operators"} operators check the relationship between two values or `variables`{:class="block3variables"}:
+Gli operatori `>`{:class="block3operators"}, `<`{:class="block3operators"} o `=`{:class="block3operators"} verificano la relazione tra due valori o `variabili`{:class="block3variables"}:
 
-+ Greater than:
++ Maggiore di:
 
 ```blocks3
 if <(speed) > (50)> then
 say [Slow down] for (2) seconds
 end
 ```
-+ Less than:
++ Minore di:
 
 ```blocks3
 repeat until <(size) < (30)>
@@ -17,16 +17,16 @@ play sound [shrink v] until done
 change (size) by (-1)
 end
 ```
-+ Equal to:
++ Uguale a:
 
 ```blocks3
 wait until <(timer) = (0)>
 stop [all v]
 ```
 
-The `and`{:class="block3operators"}, `or`{:class="block3operators"}, and `not`{:class="block3operators"} operators make logical decisions if:
+Gli operatori `e`{:class="block3operators"}, `o`{:class="block3operators"} e `non`{:class="block3operators"} prendono decisioni logiche se:
 
-+ `and`{:class="block3operators"} - both conditions are true:
++ `e`{:class="block3operators"} - entrambe le condizioni sono vere:
 
 ```blocks3
 if <<(x position) > (0)> and <(speed) > (50)>> then
@@ -34,7 +34,7 @@ think [Slow down]
 end
 ```
 
-+ `or`{:class="block3operators"} -  either condition is true:
++ `o`{:class="block3operators"} - una delle condizioni è vera:
 
 ```blocks3
 if <<(volume) < (50)> or <(volume) > (100)>> then
@@ -42,7 +42,7 @@ set [pitch v] effect to (25)
 end
 ```
 
-+ `not`{:class="block3operators"} - the condition is false:
++ `non`{:class="block3operators"} - la condizione è falsa:
 
 ```blocks3
 if <not <(total) < (50)>> then
